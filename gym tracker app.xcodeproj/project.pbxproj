@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		053F9B182EECC61C004FBA99 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 053F9B172EECC61C004FBA99 /* Documentation.docc */; };
+		053F9B1A2EECC640004FBA99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 053F9B192EECC640004FBA99 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		05103C0D2EECB70900976498 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		05103BFD2EECB70800976498 /* gym tracker app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gym tracker app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05103C0C2EECB70900976498 /* gym tracker appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gym tracker appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05103C162EECB70900976498 /* gym tracker appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gym tracker appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053F9B172EECC61C004FBA99 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		053F9B192EECC640004FBA99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +82,12 @@
 		05103BF42EECB70800976498 = {
 			isa = PBXGroup;
 			children = (
+				053F9B172EECC61C004FBA99 /* Documentation.docc */,
 				05103BFF2EECB70800976498 /* gym tracker app */,
 				05103C0F2EECB70900976498 /* gym tracker appTests */,
 				05103C192EECB70900976498 /* gym tracker appUITests */,
 				05103BFE2EECB70800976498 /* Products */,
+				053F9B192EECC640004FBA99 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053F9B1A2EECC640004FBA99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053F9B182EECC61C004FBA99 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
